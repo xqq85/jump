@@ -1,0 +1,98 @@
+.logo {
+    width: 42px;
+    height: 42px;
+    float: left;
+}
+
+.logo-name {
+    position: relative;
+    float: left;
+    left: 10px;
+    vertical-align: middle;
+    color: black;
+}
+
+.box-bottpm {
+    border-bottom: 1px solid black;
+}
+
+/*大屏幕*/
+@media screen and (min-width: 1200px) {
+    .home-page {
+        margin-left: 500px;
+    }
+
+    .dropdown #dLabe1 {
+        position: relative;
+        top: 5px;
+        margin-left: 70px;
+    }
+
+    .dropdown #dLabe2 {
+        position: relative;
+        top: 5px;
+        margin-left: 30px;
+    }
+
+    .dropdown #dLabe3 {
+        margin-left: 30px;
+    }
+}
+
+/*中屏幕*/
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .home-page {
+        margin-left: 320px;
+    }
+
+    .dropdown #dLabe1 {
+        position: relative;
+        top: 5px;
+        margin-left: 70px;
+    }
+
+    .dropdown #dLabe2 {
+        position: relative;
+        top: 5px;
+        margin-left: 30px;
+    }
+
+    .dropdown #dLabe3 {
+        margin-left: 30px;
+    }
+}
+
+/*小屏幕*/
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .home-page {
+        margin-left: 80px;
+    }
+
+    .dropdown #dLabe1 {
+        position: relative;
+        top: 5px;
+        margin-left: 70px;
+    }
+
+    .dropdown #dLabe2 {
+        position: relative;
+        top: 5px;
+        margin-left: 30px;
+    }
+
+    .dropdown #dLabe3 {
+        margin-left: 30px;
+    }
+}
+
+/*超小屏幕*/
+@media screen and (max-width: 768px) {
+    .dropdown #dLabe1 {
+        margin-left: 6px;
+        margin-top: 10px;
+    }
+
+    .dropdown #dLabe2 {
+        margin-left: 6px;
+    }
+}

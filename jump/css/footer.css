@@ -1,0 +1,92 @@
+/*大屏幕*/
+@media screen and (min-width: 992px) {
+    .footer {
+        background-color: #fbe601;
+        height: 78px;
+    }
+
+    .footer > div {
+        height: 62px;
+        margin-top: 9px;
+    }
+
+    .logo-text {
+        font-size: 24px;
+        margin-top: 8px;
+    }
+
+    .logo-text1 {
+        font-size: 35px;
+        margin-left: 12px;
+    }
+
+    .footer-text {
+        font-size: 10px;
+        position: relative;
+        top: 2px;
+    }
+
+    .footer-code {
+        height: 62px;
+    }
+
+    .phone-img, .email-img {
+        width: 31px;
+        height: 31px;
+    }
+
+    .padding-lr {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+/*其它屏幕*/
+@media screen and (max-width: 991px) {
+    .footer {
+        background-color: #fbe601;
+        height: 260px;
+    }
+
+    .footer > div {
+        height: 62px;
+        margin-top: 9px;
+    }
+
+    .footer > div > div {
+        border-bottom: 1px solid black;
+    }
+
+    .logo-text {
+        font-size: 24px;
+        margin-top: 8px;
+        margin-left: 40px;
+    }
+
+    .logo-text1 {
+        font-size: 35px;
+        margin-left: 12px;
+        margin-left: 100px;
+    }
+
+    .footer-text {
+        font-size: 10px;
+        position: relative;
+        top: 2px;
+    }
+
+    .footer-code {
+        height: 62px;
+    }
+
+    .phone-img, .email-img {
+        width: 31px;
+        height: 31px;
+    }
+
+    .padding-lr {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+}
